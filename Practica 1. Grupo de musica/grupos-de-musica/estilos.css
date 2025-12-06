@@ -1,0 +1,32 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 400px;
+    height: 200px;
+    margin: 25px;
+}
+table{
+    border: 1px black solid;
+    border-collapse: collapse;
+    
+}
+tr, td{
+    padding: 10px;
+    border: 1px black solid;
+    
+}
+#filaPrimera{
+    background-color:dimgrey;
+    text-align: center;
+}
+#ultimaFila{
+    background-color:lightgray;
+}
+#filaPrimera td{
+    color: white;
+}
+#temas{
+    color: rgb(143, 136, 136);
+    font-size: large;
+}

@@ -1,0 +1,24 @@
+h1{
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li{
+    color: rgb(247, 143, 15);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    
+}
+ul{
+    list-style-type: none;
+}
+ul li::before{
+    content: "\1F493";
+    font-size: 50px;
+    margin-right: 20px;
+}
+h1::before{
+    content: "\1F493";
+    font-size: 50px;
+    margin-right: 20px;
+
+}

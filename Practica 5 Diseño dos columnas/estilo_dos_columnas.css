@@ -1,0 +1,75 @@
+header{
+    background-color: #000;
+    color: #f96;
+    margin-bottom: -22px;
+
+}
+header h1{
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+body{
+    background-color: #eed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article h1{
+    color: #00a;
+    font-size: 1.8em;
+    margin-left: 120px;
+    
+    
+}
+
+img{
+    height: auto;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    max-width: 100%;
+    margin-left: 19px;
+}
+
+nav{
+    background-color: #999;
+    overflow: hidden;/*oculta el contenido que sale de la caja*/
+    float: left;
+    height: 500px;
+    padding: 2%;
+   
+    
+    
+}
+
+li::marker{
+    color: #000;
+}
+ul{
+    padding: 10px;
+    padding-top: 0%;
+}
+
+li a {
+    color: #cfc;
+    font-size: 1em;
+}
+li a:visited, li a:hover, li a:active {
+    color: red;
+}
+section article{
+    background-color: #ddd;
+    padding: 2%;
+    height: 500px;
+    
+    
+}
+p{
+    font-size: 1em;
+    margin-left: 120px;
+}
+footer{
+    background-color: #bbb;
+    color: #900;
+    padding: 2%;
+    text-align: left;
+    clear:both;
+}

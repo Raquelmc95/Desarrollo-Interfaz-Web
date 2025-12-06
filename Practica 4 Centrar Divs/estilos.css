@@ -1,0 +1,54 @@
+/*RAQUEL MARTIN*/
+body{
+    text-align: center;
+}
+.ejercicio{
+    text-align: left;
+}
+#primerDiv{
+    width: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#segundoDiv, #tercerDiv{
+    display: inline-block;
+    width: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    
+           
+}
+
+#cuartoDiv, #quintoDiv{
+    display: inline-block;
+    width: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+                
+}
+
+
+#sextoDiv{
+    width: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    float: left;
+
+}
+
+#septimoDiv{
+    width: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    float: right;
+    
+
+}

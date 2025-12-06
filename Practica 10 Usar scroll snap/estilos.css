@@ -1,0 +1,13 @@
+.contenedor{
+    height: 300px; 
+    overflow-y: scroll; /*Habilitar el desplazamiento vertical*/
+    scroll-snap-type: y proximity;/*Desplazamiento vertical obligatorio*/
+    
+}
+.seccion h1{
+    scroll-snap-align: start;/*Alinear el inicio de cada seccion con el punto de anclaje*/
+    height: 300px;
+    text-align: center;
+    padding-top: 150px;
+}
+

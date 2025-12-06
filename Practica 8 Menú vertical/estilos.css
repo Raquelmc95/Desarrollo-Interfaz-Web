@@ -1,0 +1,29 @@
+.menu{
+    border: 1px solid #FFC83D;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    width: 140px;
+    background-color: #E5F3FE;
+    text-align: center;
+}
+li {
+    border-bottom: 1px solid #FFC83D;
+    padding: 10px;
+}
+li:last-of-type{
+    border-bottom: none;
+}
+ul li a{
+    max-width: max-content;
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    
+}
+a:hover{
+    color: #c8e3f7;
+}
+li::before{
+    content: "\1F405";
+}

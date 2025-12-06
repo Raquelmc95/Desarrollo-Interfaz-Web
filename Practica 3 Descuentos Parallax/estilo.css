@@ -1,0 +1,44 @@
+/*RAQUEL MARTIN*/
+div{
+    background-image: url(/imagenes/fondopapel.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    width:100vw;
+    height: 100vh;
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+h1{
+    font-size: 50px;
+    max-width: 500px;
+    margin: 0 0 20px 0;
+    
+
+    
+}
+
+p{
+    font-size: 30px;
+    max-width: 500px;
+    margin: 0 0 30px 0;
+   
+}
+
+input{
+    font-size: 30px;
+    background-color: orangered;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px 25px;
+    text-align: center;
+}
